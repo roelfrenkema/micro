@@ -56,7 +56,7 @@ If not rinse and repeat. Be a better reader then I am.
 
 Once I learned what pins are I got the values from: [https://github.com/bitbank2/bb_spi_lcd](https://github.com/bitbank2/bb_spi_lcd)
 
-
+```
 #define EXAMPLE_LCD_PIXEL_CLOCK_HZ     (16000000)
 #define EXAMPLE_LCD_BK_LIGHT_ON_LEVEL  1
 #define EXAMPLE_LCD_BK_LIGHT_OFF_LEVEL !EXAMPLE_LCD_BK_LIGHT_ON_LEVEL
@@ -82,4 +82,15 @@ Once I learned what pins are I got the values from: [https://github.com/bitbank2
 #define EXAMPLE_PIN_NUM_DATA14         21 // R3
 #define EXAMPLE_PIN_NUM_DATA15         14 // R4
 #define EXAMPLE_PIN_NUM_DISP_EN        -1
-   
+```
+
+### Touch
+
+Thanks to: [https://github.com/bitbank2/bb_captouch](https://github.com/bitbank2/bb_captouch)
+
+```
+PIN_SDA 19
+PIN_SCL 20
+PIN_IRQ -1
+PIN_RST 38   
+```
