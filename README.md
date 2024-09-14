@@ -57,31 +57,32 @@ If not rinse and repeat. Be a better reader then I am.
 Once I learned what pins are I got the values from: [https://github.com/bitbank2/bb_spi_lcd](https://github.com/bitbank2/bb_spi_lcd)
 
 ```
-#define EXAMPLE_LCD_PIXEL_CLOCK_HZ     (16000000)
-#define EXAMPLE_LCD_BK_LIGHT_ON_LEVEL  1
-#define EXAMPLE_LCD_BK_LIGHT_OFF_LEVEL !EXAMPLE_LCD_BK_LIGHT_ON_LEVEL
-#define EXAMPLE_PIN_NUM_BK_LIGHT       2
-#define EXAMPLE_PIN_NUM_HSYNC          39
-#define EXAMPLE_PIN_NUM_VSYNC          41
-#define EXAMPLE_PIN_NUM_DE             40
-#define EXAMPLE_PIN_NUM_PCLK           42
-#define EXAMPLE_PIN_NUM_DATA0          8 // B0
-#define EXAMPLE_PIN_NUM_DATA1          3 // B1
-#define EXAMPLE_PIN_NUM_DATA2          46 // B2
-#define EXAMPLE_PIN_NUM_DATA3          9 // B3
-#define EXAMPLE_PIN_NUM_DATA4          1 // B4
-#define EXAMPLE_PIN_NUM_DATA5          5 // G0
-#define EXAMPLE_PIN_NUM_DATA6          6 // G1
-#define EXAMPLE_PIN_NUM_DATA7          7 // G2
-#define EXAMPLE_PIN_NUM_DATA8          15 // G3
-#define EXAMPLE_PIN_NUM_DATA9          16 // G4
-#define EXAMPLE_PIN_NUM_DATA10         4 // G5
-#define EXAMPLE_PIN_NUM_DATA11         45  // R0
-#define EXAMPLE_PIN_NUM_DATA12         48  // R1
-#define EXAMPLE_PIN_NUM_DATA13         47 // R2
-#define EXAMPLE_PIN_NUM_DATA14         21 // R3
-#define EXAMPLE_PIN_NUM_DATA15         14 // R4
-#define EXAMPLE_PIN_NUM_DISP_EN        -1
+#define LCD_PIXEL_CLOCK_HZ     (16000000)
+#define LCD_BK_LIGHT_ON_LEVEL  1
+#define LCD_BK_LIGHT_OFF_LEVEL 0
+
+#define PIN_NUM_BK_LIGHT       2
+#define PIN_NUM_HSYNC          39
+#define PIN_NUM_VSYNC          41
+#define PIN_NUM_DE             40
+#define PIN_NUM_PCLK           42
+#define PIN_NUM_DATA0          8 // B0
+#define PIN_NUM_DATA1          3 // B1
+#define PIN_NUM_DATA2          46 // B2
+#define PIN_NUM_DATA3          9 // B3
+#define PIN_NUM_DATA4          1 // B4
+#define PIN_NUM_DATA5          5 // G0
+#define PIN_NUM_DATA6          6 // G1
+#define PIN_NUM_DATA7          7 // G2
+#define PIN_NUM_DATA8          15 // G3
+#define PIN_NUM_DATA9          16 // G4
+#define PIN_NUM_DATA10         4 // G5
+#define PIN_NUM_DATA11         45  // R0
+#define PIN_NUM_DATA12         48  // R1
+#define PIN_NUM_DATA13         47 // R2
+#define PIN_NUM_DATA14         21 // R3
+#define PIN_NUM_DATA15         14 // R4
+#define PIN_NUM_DISP_EN        -1
 ```
 
 ### Touch
