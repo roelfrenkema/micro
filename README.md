@@ -90,8 +90,8 @@ Once I learned what pins are I got the values from: [https://github.com/bitbank2
 Thanks to: [https://github.com/bitbank2/bb_captouch](https://github.com/bitbank2/bb_captouch)
 
 ```
-PIN_SDA 19
-PIN_SCL 20
-PIN_IRQ -1
-PIN_RST 38   
+#define PIN_SDA                19
+#define PIN_SCL                20
+#define PIN_IRQ                -1
+#define PIN_RST                38   
 ```
